@@ -1,0 +1,55 @@
+#main
+{
+  background-color: lightgray;
+}
+
+h1
+{
+  color: red;
+}
+
+table
+{
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+th
+{
+  font-weight: bold;
+  color: blue;
+  border: 2px solid black;
+  padding: 3px;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif
+  
+}
+
+td
+{
+  text-align: center;
+  color: darkblue;
+  border:2px solid black;
+  
+}
+button
+{
+  border-radius: 5px;
+  border-color: darkblue;
+  font-weight: bold;
+  color: blue;
+  padding: 2px;
+  margin: 2px;
+  background-color: whitesmoke;
+
+}
+button:hover
+{
+  background-color: yellow;
+}
+
+tr:nth-child(even)
+{
+  background-color: lightblue;
+}
+
+
