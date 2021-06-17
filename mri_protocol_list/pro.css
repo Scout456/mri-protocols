@@ -36,15 +36,15 @@ button
   border-radius: 5px;
   border-color: darkblue;
   font-weight: bold;
-  color: blue;
+  color:whitesmoke;
   padding: 2px;
   margin: 2px;
-  background-color: whitesmoke;
+  background-color:darkblue;
 
 }
 button:hover
 {
-  background-color: yellow;
+  background-color:blue;
 }
 
 tr:nth-child(even)

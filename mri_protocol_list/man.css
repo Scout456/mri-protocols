@@ -1,50 +1,39 @@
+h1 {
+	color: darkblue;
 
-h1
-{
-  color: darkblue;
-  background-color:darkgray;
-  border-radius: 10px;
-  letter-spacing: 3px;
-  word-spacing: 10px;
-  padding:3px;
-  
+	border-radius: 10px;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	padding: 3px;
 }
 
-h1:hover
-{
-background-color: yellow;
+h1:hover {
+	color: white;
 }
 
- nav, div
-{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-color: gray;
-  
-
+a {
+	text-decoration: none;
 }
 
-
-
-
-button
-{
-  font-weight: bold;
-  margin: 25px;
-  color: blue;
-  border-radius: 5px;
-  border-color: darkblue;
-  background-color: whitesmoke;
-  height: 40px;
-  width: 85px;
+nav,
+div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: gray;
 }
 
-button:hover
-{
-  background-color:yellow ;
+button {
+	font-weight: bold;
+	margin: 25px;
+	color: whitesmoke;
+	border-radius: 5px;
+	border-color: darkgray;
+	background-color: darkblue;
+	height: 40px;
+	width: 85px;
 }
 
-
-
-
+button:hover {
+	background-color: blue;
+}
